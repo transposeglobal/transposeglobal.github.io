@@ -1,20 +1,12 @@
 .body {
-    background: #000000;
-    background-image: url('../assets/images/Photo-by-Michael-Dziedzic.jpeg');
+    background: #fff;
     background-position: center center;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-family: 'times-new-roman';
     font-size: 15px;
     letter-spacing: 2px;
     margin:0 auto;
     }
-.div {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
         .profile-picture {
             display: block;
             margin-left: auto;
@@ -37,25 +29,25 @@
                     text-align: center;
                     margin-top: 20px;
                     padding: 20px;
-                    border: 1px solid white;
+                    border: 1px solid black;
                     border-width: 2px;
                     width: 290px;
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
-                    border-radius: 40px;
+                    border-radius: 10px;
                     }
                     a {
                         text-decoration: none;
-                        color: white;
+                        color: black;
                         transition: color 1s;
                         }
                         a {
                             text-decoration: none;
-                            color: white;
+                            color: black;
                             transition: color 1s;
                             }
                             a:hover {
-                                color: #000;
-                                background: #fff;
+                                color: #fff;
+                                background: #000;
                                 }
