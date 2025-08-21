@@ -1,4 +1,4 @@
-body {
+.body {
     background: #000000;
     background-image: url('../assets/images/Photo-by-Michael-Dziedzic.jpeg');
     background-position: center center;
@@ -8,6 +8,13 @@ body {
     letter-spacing: 2px;
     margin:0 auto;
     }
+.div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
         .profile-picture {
             display: block;
             margin-left: auto;
